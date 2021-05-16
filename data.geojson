@@ -1,0 +1,40 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-symbol": "battery",
+                "title": "Oulard Sanat ve Kafe",
+                "address": "Halit Paşa Mh., Şehit Halil Sk., Banker Apt., No:1",
+                "city": "Balıkesir",
+                "province": "Erdek",
+                "phone": "[+9] 0 546 507 19 84"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.78901,
+                    40.39831
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-symbol": "battery",
+                "title": "Maviş Büfe",
+                "address": "Zeytinli Mh., Müze Sk., No:2/1A",
+                "city": "Balıkesir",
+                "province": "Erdek",
+                "phone": "[+9] 0 266 835 58 29"},
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.79291,
+                    40.39537
+                ]
+            }
+        }
+    ]
+}
