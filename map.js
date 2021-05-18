@@ -5,6 +5,14 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZ2FtZW9uc3RyZWV0IiwiYSI6ImNrbnFrNW9oazF5eTMyb
         center: [27.854587, 40.453905],
         zoom: 10
     });
+
+// Add the geocontrol to the map.
+map.addControl(
+    new MapboxGeocoder({
+        accessToken: mapboxgl.accessToken,
+        mapboxgl: mapboxgl
+    })
+);
  
 // Add geolocate control to the map.
 map.addControl(
