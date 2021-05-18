@@ -10,7 +10,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZ2FtZW9uc3RyZWV0IiwiYSI6ImNrbnFrNW9oazF5eTMyb
 map.addControl(
     new MapboxGeocoder({
         accessToken: mapboxgl.accessToken,
-        mapboxgl: mapboxgl
+        mapboxgl: mapboxgl,
         placeholder: 'Arama / Search', // Placeholder text for the search bar
     })
 );
