@@ -11,7 +11,7 @@ map.addControl(
     new MapboxGeocoder({
         accessToken: mapboxgl.accessToken,
         mapboxgl: mapboxgl,
-        placeholder: 'Arama / Search', // Placeholder text for the search bar
+        placeholder: 'Arama / Search' // Placeholder text for the search bar
     })
 );
  
